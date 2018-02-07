@@ -1,0 +1,40 @@
+{
+  "name": "common",
+  "version": "1.0.0",
+  "description": "first gulp project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jimmy van der Sleen",
+  "license": "ISC",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.23.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-es2015": "^6.22.0",
+    "browser-sync": "^2.18.8",
+    "eslint": "^4.3.0",
+    "eslint-config-airbnb-base": "^11.3.1",
+    "eslint-plugin-import": "^2.7.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-babel": "^6.1.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-copy": "^1.0.0",
+    "gulp-eslint": "^4.0.0",
+    "gulp-filter": "^5.0.0",
+    "gulp-imagemin": "^3.3.0",
+    "gulp-minify": "0.0.15",
+    "gulp-sass": "^3.1.0",
+    "gulp-sass-lint": "^1.3.4",
+    "gulp-scss-lint": "^0.5.0",
+    "gulp-sourcemaps": "^2.6.0",
+    "gulp-stylelint": "^4.0.0",
+    "uglify-es": "^3.0.27"
+  },
+  "dependencies": {
+    "imagemin-optipng": "^5.2.1"
+  },
+  "sasslintConfig": "scss-lint.yml"
+}

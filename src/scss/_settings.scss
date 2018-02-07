@@ -1,0 +1,14 @@
+// sass-lint:disable no-color-hex
+
+$color: #fff;
+$colortwo: #00f;
+$width: 50%;
+
+@mixin clearfix() {
+    
+    &::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+}

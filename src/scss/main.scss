@@ -1,0 +1,19 @@
+@import 'settings';
+
+@import 'shame';
+
+body {
+    color: $color;
+    background: $colortwo;
+    transition: all .2s;
+    column-count: 2;
+    margin: 0;
+    padding: 0;
+    
+    h1 {
+        @include clearfix;
+        padding: 10px;
+        display: flex;
+        width: $width;
+    }
+}
