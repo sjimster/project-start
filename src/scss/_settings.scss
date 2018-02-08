@@ -5,7 +5,7 @@ $colortwo: #00f;
 $width: 50%;
 
 @mixin clearfix() {
-    
+
     &::after {
         content: "";
         display: block;
